@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator javascript </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div class="title"><p>JavaScript Calculator</p></div>
+        <div class="calculator">
+            <div class="result" >
+                <div class="fieldprev" id="resultprev" data-previous-operrand></div>
+                <div class="field" id="result" data-current-operrand></div>
+            </div>
+                
+            <div class="buttons clearRow">
+                <button id="btnClear" data-clear>AC</button>
+                <button id="delBtn" data-delete>DEL</button>
+                <button id="btndiv" data-operation class="right">/</button>
+            </div> 
+            
+            <div class="buttons first">
+                <button id="btn7" data-number>7</button>
+                <button id="btn8" data-number>8</button>
+                <button id="btn9" data-number>9</button>
+                <button id="btnmult" data-operation class="right">x</button>
+            </div>
+            <div class="buttons second">
+                <button id="btn4" data-number>4</button>
+                <button id="btn5" data-number>5</button>
+                <button id="btn6" data-number>6</button>
+                <button id="btnplus" data-operation class="right">+</button>
+            </div>
+            <div class="buttons first">
+                <button id="btn1" data-number>1</button>
+                <button id="btn2" data-number>2</button>
+                <button id="btn3" data-number>3</button>
+                <button id="btnMin" data-operation class="right">-</button>
+            </div>
+            <div class="buttons equalRow">
+                <button id="btn0" data-number>0</button>
+                <button id="btnpoint" data-number>.</button>
+                <button id="btnEqual" class="right" data-equal>=</button>
+                
+            </div>
+            
+
+        </div>
+    
+    
+</body>
+<script src="script.js"></script>
+
+</html>
